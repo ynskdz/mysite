@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Brother</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<div class=""wrapper> 
+    <header>
+     <div class="header-container">
+      <a href="#">B'z</a><!--＃はリンクがないよっていう目印。入れるときに＃を消す-->
+       <nav><!--リンク-->
+        <ul>
+         <li><a href="#">ABOUT</a></li>
+         <li><a href="#">NEWS</a></li>
+         <li><a href="#">VIDEOS</a></li>
+         <li><a href="#">HISTORY</a></li>
+         <li><a href="#">ACCESS</a></li>
+         <li><a href="#">CONTACT</a></li>
+        </ul>
+       </nav>
+     </div>   
+    </header>   
+    <main> <!--メインとなるコンテンツ-->
+        <div class="keyvisual">
+            <div class="keyvisual-container">
+                <h1>B'z</h1>
+                <h2>稲葉浩志・松本孝弘</h2>
+
+                <p class="keyvisual-description">圧倒的オーラ</p><!--classがないと、<p>タグ全部に同じ指定がされるから、個別で指定する必要がある-->
+                <p class="keyvisual-data">2020/May</p>
+                <p class="keyvisual-prace">@online</p>
+            </div>
+        </div>
+    </main>
+    <div class="about">
+        <!--aboutのコンテンツを囲むブロックだよ-->
+        <div class="about-container">
+            <!--aboutのタイトル-->
+            <h2>ABOUT B'z</h2>
+            <!--aboutの説明-->
+            <p>平成初期から日本のトップを走り続けるレジェンド</p>
+        </div>
+    </div>
+    <div class="news">
+        <div class="news-container">
+            <h2>NEWS</h2>
+            <ul>
+                <li><!--liのブロックの中に.news-imageのブロックがあるかんじ-->
+                    <div class="news-image"></div>
+                    <p>最近のB'z</p>
+                </li>
+                <li>
+                    <div class="news-image"></div>
+                    <P>アルバム</P>
+                </li>
+                <li>
+                    <div class="news-image"></div>
+                    <p>ライブ</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="video">
+        <div class="video-container">
+            <!--videoのタイトル-->
+            <h2>VIDEOS</h2>
+            <!--videoのコンテンツたち-->
+            <ul>
+                <li><!--iframeは「サイト」上にURLを指定して上げること。「別のサイト」を読み込むことができるタグ-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Use6JCncfyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wO-Dvsg0w2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="history">
+        <div class="history-container">
+            <h2>HISTORY</h2>
+            <ul>
+                <li><a href="#"><div class="history-image">B'z</div></a></li>
+                <li><a href="#"><div class="history-image">TAK SOLO</div></a></li>
+                <li><a href="#"><div class="history-image">KOSHI SOLO</div></a></li>
+                <li><a href="#"><div class="history-image">INABA/SALAS</div></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="access">
+        <!--アクセスのコンテンツを囲むブロック-->
+        <div class="access-container">
+            <!--アクセスのタイトル-->
+            <h2>ACCESS</h2>
+            <!--アクセスのコンテンツたち-->
+            <div class="access-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.1861557331945!2d135.23145451508378!3d34.72570178042802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008c10c4e9ec9b%3A0xab5a0292c1e1f0fd!2z56We5oi45aSn5a2m!5e0!3m2!1sja!2sjp!4v1593154105575!5m2!1sja!2sjp"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><small>©2020yunosuke.</small></p><!--smallタグは免責警告著作権等の注釈や細目を表すタグ。pはテキスト-->
+    </footer>
+</div>
