@@ -2,7 +2,7 @@ header{
     width:100%;
     position:fixed; /*スクロールしてもヘッダーが固定される*/
     top: 0;
-    background-color: rgba(0,0,0,0,5); /*色指定で16進数*/
+    background-color: rgba(0,0,0,0.5); /*色指定で16進数*/
 }
 
 .header-container{
